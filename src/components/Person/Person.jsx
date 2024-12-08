@@ -1,9 +1,9 @@
 function sex(person) {
-  if (person.sex === 'f') {
-    return `${person.partnerName} is my husband`;
+  if (person.sex === 'm') {
+    return `${person.partnerName} is my wife`;
   }
 
-  return `${person.partnerName} is my wife`;
+  return `${person.partnerName} is my husband`;
 }
 
 export const Person = ({ person }) => (
